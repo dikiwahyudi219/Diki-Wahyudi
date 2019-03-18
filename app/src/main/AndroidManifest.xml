@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.d3ifcool.belajarbahasa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".KuisActivity"
+            android:label="@string/kuis"></activity>
+        <activity android:name=".KamusActivity"
+            android:label="@string/kamus"></activity>
+        <activity android:name=".Sunda"
+            android:label="Sunda"></activity>
+        <activity android:name=".Batak"
+            android:label="Batak"></activity>
+        <activity android:name=".Jawa"
+            android:label="Jawa"></activity>
+        <activity android:name=".Padang"
+            android:label="Padang"></activity>
+        <activity android:name=".Makasar"
+            android:label="Makasar"></activity>
+    </application>
+
+</manifest>
